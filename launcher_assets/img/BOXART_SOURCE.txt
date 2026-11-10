@@ -1,0 +1,6 @@
+source: Google Drive file 1mGGy8K3Tj9NU1lkTGDlqIJDTJlXmu7BG
+name: Urban Strike (USA).png
+kind: libretro-style Named_Boxarts (SNES front cover), 512x364 RGBA
+sha256_of_source_png: computed at download
+note: Not the Named_Titles title screen (256x224) or Named_Snaps screenshot.
+fitted into a square without stretching (letterboxed on near-black).

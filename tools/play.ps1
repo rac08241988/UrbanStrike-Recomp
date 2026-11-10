@@ -42,9 +42,9 @@ $sdl2 = Get-ChildItem 'M:\SDL' -Recurse -Filter 'sdl2-config.cmake' `
 if (-not $sdl2) { throw 'SDL2 cmake package not found under M:\SDL.' }
 $sdl2dir = Split-Path $sdl2.FullName
 $rom = if ($env:SNESRECOMP_ROM) { $env:SNESRECOMP_ROM }
-       elseif (Test-Path 'M:\Opencode\roms\Demon''s Crest (USA).sfc') {
-           'M:\Opencode\roms\Demon''s Crest (USA).sfc' }
-       else { Join-Path $repo 'Demon''s Crest (USA).sfc' }
+       elseif (Test-Path 'M:\Opencode\roms\Urban Strike (U) [!].smc') {
+           'M:\Opencode\roms\Urban Strike (U) [!].smc' }
+       else { Join-Path $repo 'Urban Strike (U) [!].smc' }
 
 $env:PATH = "$mingw;$env:USERPROFILE\.cargo\bin;$env:PATH"
 $env:RUSTUP_TOOLCHAIN = '1.97.1-x86_64-pc-windows-gnu'
