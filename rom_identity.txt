@@ -1,0 +1,14 @@
+# ROM identity for Urban Strike (USA) — the single source of truth.
+# Read by the build (snesrecomp_rom_identity.h), tools/regen.sh and packaging.
+# Digests are of the bare image (copier header stripped).
+
+display_name    = Urban Strike
+rom_file        = Urban Strike (U) [!].smc
+expected_crc32  = b9bf7990
+expected_md5    = 09fe7b4b78290b624fcc54ea79cf6034
+expected_sha1   = 6ba4a5b8ba4552b6d1a6b8db20182092e5c8f884
+expected_sha256 = dcb33a89fcb8d8ca8f3a467034728ad6375273d8eb51a60418ca51ef745e9b38
+rom_size        = 2097152
+mapping         = lorom
+region          = USA
+game_id         = urbanstrike-usa

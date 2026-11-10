@@ -1,0 +1,9 @@
+[submodule "lib/recomp-net"]
+	path = lib/recomp-net
+	url = https://github.com/magnopaz/recomp-net.git
+	branch = demons-crest/pins
+
+[submodule "lib/retcomm-rbengine"]
+	path = lib/retcomm-rbengine
+	url = https://github.com/magnopaz/rbengine.git
+	branch = demons-crest/pins
